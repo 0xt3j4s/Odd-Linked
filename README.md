@@ -1,8 +1,12 @@
-# React + Vite
+# Odd-Linked
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Developing a simple app using ODD SDK. 
 
-Currently, two official plugins are available:
+ODD SDK provides:
+- User accounts using browser's Web Crypto API.
+- Authorization using UCAN.
+- Encrypted file storage using WNFS filesystem backed by IPLD.
+- Key Management using AWAKE protocol to link devices.
+- Platform APIs for publishing apps from the browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I will use these features to build a simple app that allows users to create a list of links. The links will be stored in the user's WNFS filesystem.
